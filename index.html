@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+        <form>
+            <!-- Nome completo --> 
+            <div>
+                <label for="nome">Nome completo</label>
+                <br>
+                <input type="text" name="nome" id="nome" required="true" placeholder="Digite seu nome aqui...">
+            </div>
+
+            <br>
+            <!-- Email para envio --> 
+            <div>
+                <label for="emailid">Email</label>
+                <br>
+                <input type="email" name="" id="emailid" required="true" placeholder="Digite seu email aqui...">
+            </div>
+            
+            <!-- Text area para enviar as info descritivas --> 
+            <div>
+                <p>O que te motivou a participar do evento?</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="selecaoid">Selecione o seu módulo</label>
+                <br>
+                <select name="selecao" id="selecaoid" required="true">
+                    <option value="escolhaomodulo"  disabled selected hidden>Escolher modulo</option>
+                    <option value="Modulo1">Modulo 1</option>
+                    <option value="Modulo2">Modulo 2</option>
+                    <option value="Modulo3">Modulo 3</option>
+                    <option value="Modulo4">Modulo 4</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="senha">Cadastre uma senha</label>
+                <br>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+            <br>
+            <div>
+                <label for="senha">Repita a senha</label>
+                <br>
+                <input type="password" name="senha" id="senha" placeholder="Repita sua senha" required="true">
+            </div>
+            <div>
+                <p>Deseja receber novidades no seu email?</p>
+                <label for="opcaosradio">Sim</label>
+                <input type="radio" name="opcaos" id="Novidadesopcao1">
+
+                <label for="opcaosradio2">Não</label>
+                <input type="radio" name="opcaos" id="Novidadesopcao2">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
